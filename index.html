@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <main class="container">
+      <video autoplay loop muted>
+        <source src="assets/img/pokeballBG.mp4" type="video/mp4" />
+      </video>
+      <img
+        class="pokedex-logo"
+        src="assets/img/pokedexlogo.png"
+        alt="Pokedex logo"
+      />
+      <div class="interface">
+        <div class="info-display">
+          <div class="pokemon-images"></div>
+          <div class="pokemon-data"></div>
+        </div>
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Who's that Pokemon?"
+            class="search bar"
+          />
+          <button class="search-button hvr-buzz">
+            <img
+              class="pokeball hvr-buzz"
+              src="https://cdn.emojidex.com/emoji/seal/pokeball.png"
+              emoji-code="pokeball"
+              alt="pokeball"
+            />
+          </button>
+          <div class="button toggle-next" id="button-3">
+            <div id="circle"></div>
+            <a href="#">Evolve!</a>
+          </div>
+          <div class="button" id="button-3">
+            <div id="circle"></div>
+            <a href="#">Species</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
